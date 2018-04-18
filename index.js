@@ -1,7 +1,6 @@
 function avatarAction(args) {
     const random_name = require("node-random-name")
     const minifig = require("minifig")
-    svgString = "default";
     
     return new Promise(function(resolve, reject) {
       minifig.makeSVG(function(stuff) {
@@ -14,15 +13,6 @@ function avatarAction(args) {
         }
       });
     });
-    
-    // promise.then(function(result) {
-      // svgString = result;
-      // return { name: random_name(), image: svgString};
-    // }, function(err) {
-      // console.log(err);
-    // });
-  
-    // return { name: random_name(), image: svgString }
 }
 
 exports.main = avatarAction;
