@@ -2,7 +2,7 @@
   "name": "my-action",
   "main": "index.js",
   "dependencies": {
-    "node-random-name": "1.0.1",
+    "totro": "1.0.3",
     "minifig": "1.4.0"
   }
 }
